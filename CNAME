@@ -1,1 +1,67 @@
-www.assustadoramente.com
+<!DOCTYPE html>
+  <html lang="PT-BR">
+      <head>
+          <title>FrontEnd</title>
+          <meta charset="utf-8">
+          <link rel="stylesheet" type="text/css" href="">
+          <script></script>
+      </head>
+      <style>
+          .body{
+            background-color: rgb(0, 0, 0);
+            color:red;
+          }
+          .texto{
+            color:rgb(255, 0, 0);
+          }
+          .submit{
+            background-color: rgb(255, 0, 0);
+          }
+      </style>
+      <body class="body">
+          Bom dia, esse é o primeiro codigo de html
+        <form method="POST" action="index.php">
+            <fieldset>
+                <legend>
+                  CUIDADO SITE ASSUSTADOR dois RISCO DE PERDA DE TUDO AAAAAAAA 
+                
+                </legend>
+                <br>
+                <p class="texto">Usuario:</p> <input type="text" placeholder="Usuario" minlength="5" maxlength="10" required><br>
+                <p class="texto">Senha assustadora:</p>   <input type="password" placeholder="Senha" minlength="5" maxlength="10" required><br>
+                <input type="submit" value="Registração assustadora" class="submit">
+            </fieldset>
+            <fieldset>
+                 <legend>Cadastro</legend>
+                Nome <input type="text"><br>
+                Sobrenome <input type="text"><br>
+                Data de Nascimento <input type="date"><br>
+                Masculino <input type="checkbox"><br>
+                Feminino <input type="checkbox"><br>
+                Femboy <input type="checkbox"><br>
+                Observações<input type="textArea"><br>
+                Canhoto <input type="radio"><br>
+                Destro <input type="radio"><br>
+                CPF <input type="number"><br>
+                RG <input type="number"><br>
+                Endereço <input type="text"><br>
+                CEP <input type="number"><br>
+                </fieldset>
+                <a> href="https://www.youtube.com/watch?v=L4a3gS4U3Rg" <div class="link"></div> </a>
+        </form>
+        <img src="https://cdn.awsli.com.br/2500x2500/2555/2555413/produto/216733881/floc11580---assassino-ek5hax7k5b.jpg" width="50%" height="80%">
+        <input type="image" src="https://www.csoonline.com/wp-content/uploads/2023/06/hacker_hire-100697015-orig.jpg?quality=50&strip=all" width="50%" height="80%">
+        <input type="image" src="https://www.guiageografico.com/mapas/mapa/robinson-mundo.jpg" width="50%" length="80%">
+        <div class="foto">
+    </div>
+    <br>
+    <br>
+    <li> assustador trigo </li>
+    <li> assustador leite</li>
+    <li> assustador margarina</li>
+    <li> assustador ovos</li>
+    <li> assustador fubá</li>
+    <li> assustador óleo</li>
+      </body>
+      </body>
+  </html>
