@@ -4,17 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Cadastro de Firebase do Borges [CFB]</title>
+  <style>
+    .texto{
+       color:coral
+
+    }
+    .campo{
+        border:1px solid blue;
+
+    }
+    .botao{
+        border:1px darkgreen;
+        color:antiquewhite
+    }
+    fieldset{
+        border:1px solid red;
+
+    }
+  </style>
 </head>
     <body>
       <form>
-        CPF: <input type="text" placeholder="Digite seu CPF" maxlength="11" minlength="11" required><br><br>
-        EMAIL: <input type="text" placeholder="Digite seu e-mail" maxlength="30" minlength="11" required><br><br>
-        NOME: <input type="text" placeholder="Digite seu nome" maxlength="50" minlength="11" required><br><br>
-        SENHA: <input type="text" placeholder="Digite sua senha" maxlength="10" minlength="5" required><br><br>
-        TELEFONE: <input type="text" placeholder="Digite seu telefone" maxlength="11" minlength="11" required><br><br>
+        <fieldset>
+        <p class="texto">>CPF:</p> <input type="text" class="campo" placeholder="Digite seu CPF" maxlength="11" minlength="11" required><br><br>
+        <p class="texto">EMAIL:</p> <input type="text" class="campo" placeholder="Digite seu e-mail" maxlength="30" minlength="11" required><br><br>
+        <p class="texto">NOME:</p> <input type="text" class="campo" placeholder="Digite seu nome" maxlength="50" minlength="11" required><br><br>
+        <p class="texto">SENHA:</p> <input type="text" class="campo" placeholder="Digite sua senha" maxlength="10" minlength="5" required><br><br>
+        <p class="texto">TELEFONE:</p> <input type="text" class="campo" placeholder="Digite seu telefone" maxlength="11" minlength="11" required><br><br>
 
-<input type="submit" value="Mandar suas informações pessoais para o Borges">
+<input type="submit" value="Mandar suas informações pessoais para o Borges" class="botao">
+        </fieldset>
       </form>
     </body>
 </html>
